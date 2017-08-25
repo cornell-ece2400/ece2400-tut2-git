@@ -7,5 +7,3 @@ distributed version control system. The detailed tutorial document can be
 found here:
 
  * http://www.csl.cornell.edu/courses/ece2400/handouts/ece2400-tut2-git.pdf
-
-[![Build Status](https://travis-ci.org/cbatten/ece2400-S01-linux-git.svg?branch=master)](https://travis-ci.org/cbatten/ece2400-S01-linux-git)
