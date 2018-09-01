@@ -6,3 +6,4 @@ lemon
 apple
 plum
 date
+kiwi
