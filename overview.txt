@@ -4,30 +4,34 @@ low-level computer hardware to high-level, user-facing application
 software and usually requires careful consideration of performance and
 resource constraints. Examples of computer systems software include
 compilers, operating systems, databases, numerical libraries, and
-embedded controllers.
+embedded controllers. This course aims to provide a strong foundation in
+the art, principles, and practices of computer systems programming using
+C and C++, the languages of choice for system-level programmers.
 
-This course aims to provide a strong foundation in computer systems
-programming using C and C++, the languages of choice for system-level
-programmers. The course is structured into three parts. In the first
-part, students will learn basic C programming (e.g., static typing,
-functions, control flow, arrays, strings, pointers, dynamic memory
-management); students will then apply their knowledge of C to explore
-basic algorithmic techniques (e.g., recursion, divide-and-conquer,
-dynamic programming), basic algorithms (e.g., sorting), and basic data
-structures (e.g., lists, stacks, queues, sets, maps). In the second part,
-students will learn more advanced C++ programming (e.g., objects,
-inheritance, polymorphism, templates); students will then apply their
-knowledge of C++ to explore more advanced algorithms and data structures
-(e.g., binary search trees, priority queues, hash tables, graphs,
-spanning trees). In the third part, students will explore systems
-programming in the UNIX environment using POSIX I/O, processes, and
-threads.
+The course lectures are structured into four parts. In the first part,
+students will use C to explore procedural programming (e.g., functions,
+conditional statements, iteration statements, recursion, types, pointers,
+arrays, dynamic allocation). In the second part, students will apply
+their knowledge of C to explore basic data structures and algorithms
+(e.g., lists and vectors, complexity analysis, sorting algorithms,
+abstract data types). In the third part, students will transition from C
+to C++ and then use C++ to explore four programming paradigms:
+object-oriented programming (e.g., C++ classes and inheritance for
+dynamic polymorphism), generic programming (e.g., C++ templates for
+static polymorphism), functional programming (e.g., C++ functors and
+lambdas), and concurrent programming (e.g., C++ threads and atomics). In
+the fourth part, students will apply their knowledge of multi-paradigm
+C++ to explore more algorithms and data structures involving trees (e.g.,
+binary search trees, binary heaps), tables (e.g., lookup tables, hash
+tables), and graphs (e.g., depth-first search, breadth-first search,
+shortest path, minimum spanning trees).
 
-The course includes a strong emphasis on both theoretical and practical
-design trade-offs. A series of programming assignments enable students to
-apply what they have learned to interesting real-world problems and to
-gain experience with version control, continuous integration, debugging,
-profiling, and code optimization. In the final two programming
-assignments, students will work in pairs to implement a simple in-memory
-caching database and a high-performance financial trading system.
-
+The course includes hands-on discussion sections and a series of five
+programming assignments for students to put the principles they have
+learned into practice. Students will gain experience with UNIX software
+development including command line development tools, distributed version
+control, unit testing frameworks, continuous integration, debugging
+tools, and performance optimization. In the final two programming
+assignments, students will work in pairs to design, implement, test, and
+evaluate a high-performance handwriting recognition system to
+automatically classify handwritten letters.
