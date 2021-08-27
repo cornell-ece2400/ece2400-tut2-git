@@ -1,0 +1,9 @@
+name: Git Tutorial
+on: [push]
+jobs:
+  name: Check for Blueberries
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@v2
+   - run: grep blueberry fruit.txt
+
